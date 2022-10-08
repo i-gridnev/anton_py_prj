@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ksem!frykp(4x7o8_4(rp$o=4m=8f63!k=*g#zs(ax#wu@nhxv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-52-28-18-15.eu-central-1.compute.amazonaws.com', 'localhost']
+ALLOWED_HOSTS = ['ec2-52-28-18-15.eu-central-1.compute.amazonaws.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'temp_sensors'
 ]
 
 MIDDLEWARE = [
